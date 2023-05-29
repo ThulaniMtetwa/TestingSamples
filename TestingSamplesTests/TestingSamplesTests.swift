@@ -14,7 +14,7 @@ final class TestingSamplesTests: XCTestCase {
         //Given
         let systemUnderTest = UsernameValidator()
         //When
-        let result = systemUnderTest.isValid("JaneDoe")
+        let result = systemUnderTest.isValid("JaneDoe jh")
         //Then
         XCTAssertTrue(result)
     }
